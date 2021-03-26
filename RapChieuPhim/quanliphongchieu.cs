@@ -28,7 +28,7 @@ namespace RapChieuPhim
                 dtbPhongChieu = JsonConvert.DeserializeObject<DataTable>(strjson);
                 if (strjson == "[]")
                 {
-                    dtbPhongChieu.Columns.Add("Mã phòng chiếu");
+                    dtbPhongChieu.Columns.Add("Mã phòng  chiếu");
                     dtbPhongChieu.Columns.Add("Số chỗ");
                     dtbPhongChieu.Columns.Add("Máy chiếu");
                     dtbPhongChieu.Columns.Add("Âm thanh");
